@@ -3,7 +3,10 @@ import React from 'react';
 // import UseReducer from './UseReducer/UseReducer';
 // import UseEffect from './UseEffect/UseEffect';
 // import UseRef from './UseRef/UseRef';
-import UseLayoutEffects from './UseLayoutEffect/UseLayoutEffects';
+// import UseLayoutEffects from './UseLayoutEffect/UseLayoutEffects';
+// import ImperativeHandle from './UseImperativeHandle/ImperativeHandle';
+import ContextTutorial from './UseContext/ContextTutorial';
+
 
 function App() {
   return (
@@ -12,7 +15,9 @@ function App() {
     {/* <StateTutorial/> */}
     {/* <UseEffect/> */}
     {/* <UseRef /> */}
-    <UseLayoutEffects />
+    {/* <UseLayoutEffects /> */}
+    {/* <ImperativeHandle/> */}
+    <ContextTutorial/>
     </>
   );
 }
